@@ -1,0 +1,249 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+svg {
+  z-index: -100;
+}
+.form-group {
+  left: 0;
+  right: 0;
+  position: absolute;
+  height: 100%;
+}
+.header {
+  padding-left: 5%;
+}
+.small {
+  font-size: 230%;
+}
+.title {
+  float: right;
+}
+.quizAppTtl {
+  font-size: 280%;
+}
+.fName {
+  font-size: 120%;
+}
+.title_style {
+  padding-left: 43%;
+  font-size: 270%;
+}
+.input_name {
+  text-align: center;
+}
+.nameT {
+  padding-top: 40%;
+  text-align: left;
+  font-size: 200%;
+}
+.nameIB {
+  margin-top: 5%;
+  text-align: center;
+  padding: 3% 20%;
+  border-radius: 50px;
+  width: 55%;
+  font-size: 110%;
+}
+.start {
+  text-align: center;
+  margin-right: 10%;
+  margin-top: 10%;
+}
+.startBtt {
+  background-color: #222222;
+  width: 30%;
+  padding: 2% 2%;
+  margin-left: 70%;
+  font-size: 250%;
+  border-radius: 70px;
+  color: #ffffff;
+}
+.footer {
+  margin-top: 21%;
+  padding: 10% 5%;
+  text-align: center;
+  font-size: 25px;
+  background-color: #222222;
+  height: 10.5%;
+}
+.footer p {
+  color: #ffffff;
+}
+.parent {
+  display: none;
+}
+.parent {
+  left: 0;
+  right: 0;
+  position: absolute;
+  height: 100%;
+}
+#pertanyaan{
+  font-size: 350%;
+}
+#soal,
+#next {
+  padding: 5%;
+}
+.soal {
+  height: 15rem;
+}
+.next {
+  font-size: 300%;
+  text-align: center;
+}
+.nexBox {
+  background-color: #ffffff;
+  width: 200px;
+  height: 100px;
+  margin-left: 70%;
+  border-radius: 60px;
+}
+#dipilih {
+  border: 3px solid #ffffff;
+  font-size: 130%;
+  background-color: #ffffff;
+  color: #222222;
+}
+
+#salah {
+  background-color: red;
+  font-size: 130%;
+}
+
+#note_box{
+  height: 17.5rem;
+  margin-right: 0;
+  margin-left: 0;
+  border-bottom: 3px solid #222222;
+}
+.noteTex {
+  padding-top: 15%;
+}
+.noteTtl {
+  padding: 0 7%;
+  font-size: 200%;
+}
+#note {
+  padding: 0 7%;
+  font-size: 160%;
+}
+.jawab {
+  background-color: #222222;
+  height: 59rem;
+}
+.jawaba {
+  font-size: 200%;
+  padding: 5% 0;
+}
+.a, 
+.b, 
+.c, 
+.d {
+  height: 5rem;
+  color: #ffffff;
+  border: 3px solid #ffffff;
+  border-radius: 60px;
+  padding: 0 5%;
+  padding-top: 3%;
+}
+.aBox{
+  padding: 1% 5%;
+  margin: 1.5% 5%;
+}
+#benar {
+  background-color: green;
+  font-size: 130%;
+}
+.parent {
+  position: inherit;
+}
+
+/* style cek score */
+.stop_quiz {
+  left: 0;
+  right: 0;
+  position: absolute;
+  height: 100%;
+}
+#score_tex {
+  font-size: 300%;
+}
+
+.scoreIn {
+  border-radius: 30px;
+  margin-top: 15%;
+  margin-left: 10%;
+  background-color: #222222;
+  color: #ffffff;
+  width: 37%;
+  height: 17rem;
+}
+.correctAnss {
+  border-radius: 30px;
+  margin-top: -27.5%;
+  margin-right: 10%;
+  float: right;
+  background-color: #222222;
+  color: #ffffff;
+  width: 37%;
+  height: 17rem;
+}
+#score_tex,
+.scoreAng,
+.correctAnss{
+  text-align: center;
+}
+#score_tex{
+  padding-top: 8%;
+  color: #ffffff;
+}
+.scoreAng {
+  padding-top: 3%;
+  font-size: 500%;
+  color: #ffffff;
+}
+.corrretTex {
+  margin-top: 10%;
+  font-size: 250%;
+  color: #ffffff;
+}
+.corrAng {
+  padding-top: 3%;
+  font-size: 500%;
+  color: #ffffff;
+}
+.thatsMe {
+  background-color: #ffffff;
+  color: #222222;
+}
+.rank {
+  color: #ffffff;
+  background-color: #222222;
+  margin: 5% 10%;
+  margin-top: 10%;
+  height: 60%;
+  border-radius: 70px;
+}
+.rankTtl {
+  text-align: center;
+  font-size: 400%;
+  padding-top: 10%;
+  color: #ffffff;
+}
+.ranks {
+  border-radius: 50px;
+  border: 2px solid #ffffff;
+  padding: 2%;
+  font-size: 300%;
+  margin: 3% 5%;
+}
+#rank1 {
+  margin-top: 10%;
+}
+
+#stop_quiz1{
+  display: none;
+}

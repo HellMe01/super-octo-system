@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="" content="">
+    <title></title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+  </head>
+  <body>
+    
+    <div class="form-group" id="login">
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#222222" fill-opacity="1" d="M0,192L60,202.7C120,213,240,235,360,224C480,213,600,171,720,133.3C840,96,960,64,1080,69.3C1200,75,1320,117,1380,138.7L1440,160L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg> 
+      <div class="header">
+        <h1 class="title"><span class="small">Welcome to </span><span class="quizAppTtl">QuizApp</span> <span class="title_style">that i make</span></h1>
+      <div class="nameT">
+        <h6 class="fName">First Name</h6>
+      <input type="text" name="name" required placeholder="type your name" value="" id="your_name" class="nameIB"/>
+      </div>
+      
+      <div class="start" >
+        <h3 class="startBtt" onclick="start()">Start Quiz</h3>
+      </div>
+      </div>
+      <div class="footer">
+        <p class="footText">Hello my name is Helmi Hadi I'm form Indonesia. This is QuizApp that I make and I hope you like it.</p>
+        <p>Build With HTML CSS JS</p>
+      </div>
+      
+    </div>
+    
+    
+    <div class="parent" id="parent">
+      
+      <div id="card">
+        <div id="soal" class="soal">
+          <h1 id="pertanyaan"></h1>
+        </div>
+        
+      <div id="note_box">
+        <div class="noteTex">
+        <h1 class="noteTtl">Note:</h1>
+        <h5 id="note">Choose the correct answer by crossing A, B, C, or D and click Choose button to save the answer</h5>
+        </div>
+      </div>
+        
+        <div class="jawab">
+          <div class="jawaba">
+            <div class="aBox">
+                <h3 class="a" id="a" onclick="aClick()" data-id="0"> </h3>
+            </div>
+            <div class="aBox">
+                <h3 class="b" id="b" onclick="bClick()" data-id="1"></h3>
+            </div>
+            <div class="aBox">
+                <h3 class="c" id="c" onclick="cClick()" data-id="2"></h3>
+            </div>
+            <div class="aBox">
+                 <h3 class="d" id="d" onclick="dClick()" data-id="3"></h3>
+            </div>
+          </div>
+          <div class="nexBox">
+            <h3 id="next" class="next" 
+        onclick="pilih1()" >Choose</h3>
+          </div>
+        </div>
+    
+      </div>
+
+    </div>
+    
+    <!-- cek nilai score  -->
+    
+     <div class="stop_quiz" id="stop_quiz1">
+      <div class="scor_rank">
+        <div class="scoreIn">
+        <h4 id="score_tex">Your Scor is </h4>
+        <h4 class="scoreAng"><span id="score"></span>/100</h4>
+        </div>
+        </div>
+        <div class="correctAnss">
+          <h4 class="corrretTex">Correct Answer</h4>
+          <h4 class="corrAng"><span id="true"></span>/10</h4>
+      </div>
+      <div class="rank" id="rank">
+        <h1 class="rankTtl">Rank Score</h1>
+        <h5 id="rank1" class="ranks"></h5>
+        <h5 id="rank2" class="ranks"></h5>
+        <h5 id="rank3" class="ranks"></h5>
+        <h5 id="rank4" class="ranks"></h5>
+        <h5 id="rank5" class="ranks"></h5>
+      </div>
+    </div> 
+
+    <script src="script.js" type="text/javascript" charset="utf-8"></script>
+  </body>
+</html>
